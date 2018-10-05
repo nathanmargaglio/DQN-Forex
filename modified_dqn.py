@@ -104,7 +104,7 @@ class DQNAgent(AbstractDQNAgent):
                  dueling_type='avg', *args, **kwargs):
         super(DQNAgent, self).__init__(*args, **kwargs)
 
-        print("Using Modified DQN Agent")
+        print("Using Modified DQN Agnet")
 
         # Validate (important) input.
         if hasattr(model.output, '__len__') and len(model.output) > 1:
